@@ -29,9 +29,9 @@ int main(void){
   printf("Heads: %d, Tails: %d\n",cnt,3 - cnt);
   
    if(1 < cnt){
-    printf("You won!\n");
+    printf("%s won!\n",name);
   }else{
-    printf("You lost...\n");
+    printf("%s lost...\n",name);
   }
  
   return 0;
